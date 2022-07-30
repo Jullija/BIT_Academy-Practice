@@ -10,4 +10,8 @@ set_R = [(robot(BASIC_MAP(1)[0], 0, 0, FULL_BATTERY), robotStatus.ALIVE),
 @pytest.mark.dependency(name="constructor", scope="session")
 @pytest.mark.parametrize("input_t, output_t", set_R)
 def test_R(input_t, output_t):
+<<<<<<< HEAD
     assert input_t.get_status() == output_t
+=======
+    assert input_t.get_status() == output_t
+>>>>>>> cdf8f8f56e712959e4661374914589e6e166f510

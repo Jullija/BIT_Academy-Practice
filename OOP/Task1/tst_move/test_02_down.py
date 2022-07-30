@@ -44,4 +44,8 @@ set_MM = [(robot(BASIC_MAP(MID_SIZE)[0], MID_CORD, MID_CORD, FULL_BATTERY).down(
 @pytest.mark.dependency(name="D_MM", depends=["D_UM", "D_MU"])
 @pytest.mark.parametrize("input_t, output_t", set_MM)
 def test_MM(input_t, output_t):
+<<<<<<< HEAD
     assert input_t.get_status() == output_t
+=======
+    assert input_t.get_status() == output_t
+>>>>>>> cdf8f8f56e712959e4661374914589e6e166f510

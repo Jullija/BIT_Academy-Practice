@@ -78,4 +78,8 @@ def test_BATE():
 
     robot_t.right(MAP_SIZE - 1).down().left(MAP_SIZE - 1)
     assert robot_t.get_battery() == BATTERY_E_END_VAL
+<<<<<<< HEAD
     assert robot_t.get_status()  == robotStatus.ALIVE
+=======
+    assert robot_t.get_status()  == robotStatus.ALIVE
+>>>>>>> cdf8f8f56e712959e4661374914589e6e166f510

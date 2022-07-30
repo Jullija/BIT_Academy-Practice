@@ -88,4 +88,8 @@ def test_MVC():
         robot_t.down(3).right(3).up(3).left(3)
     
     assert robot_t.get_status() == robotStatus.WATER
+<<<<<<< HEAD
     assert (robot_t.get_x(), robot_t.get_y()) == MVC_CORD_END
+=======
+    assert (robot_t.get_x(), robot_t.get_y()) == MVC_CORD_END
+>>>>>>> cdf8f8f56e712959e4661374914589e6e166f510
