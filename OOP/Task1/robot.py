@@ -8,14 +8,10 @@ BATTERY_VAL = 10
 class robot:
     # mapa, x, y, bateria
     def __init__(self, T, x, y, b):
-<<<<<<< HEAD
         self.__T = T
         self.__x = x
         self.__y = y
         self.__b = b
-=======
-        pass
->>>>>>> cdf8f8f56e712959e4661374914589e6e166f510
 
     def left(self, val = 1):
         pass
@@ -27,7 +23,6 @@ class robot:
         pass
 
     def get_status(self):
-<<<<<<< HEAD
         if self.get_battery() == 0:
             return robotStatus.DEAD
 
@@ -58,14 +53,3 @@ class robot:
         
     def get_y(self):
         return self.__y
-=======
-        pass
-    def get_battery(self):
-        pass
-    def get_map(self):
-        pass
-    def get_x(self):
-        pass
-    def get_y(self):
-        pass
->>>>>>> cdf8f8f56e712959e4661374914589e6e166f510
